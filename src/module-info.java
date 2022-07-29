@@ -1,0 +1,5 @@
+module CC_TahaminaCodeRepo {
+	requires javafx.controls;
+	
+	opens application to javafx.graphics, javafx.fxml;
+}
